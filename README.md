@@ -23,8 +23,7 @@ $ find /var/lib/apt/lists -type f -exec rm {} \;
 $ sudo nano /etc/apt/sources.list
 ```
 Paste content given below
-> 
-deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports focal main restricted universe multiverse
+> deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports focal main restricted universe multiverse
 deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports focal-updates main restricted universe multiverse
 deb [arch=arm64] http://ports.ubuntu.com/ubuntu-ports focal-security main restricted universe multiverse
 deb [arch=i386,amd64] http://us.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
